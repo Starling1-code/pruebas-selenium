@@ -1,0 +1,36 @@
+Como usuario de Palitest,
+Quiero que no se procesen nuevas solicitudes si ya tengo una solicitud en estado pendiente,
+Para evitar conflictos y mantener la integridad de las solicitudes.
+
+Criterios de Aceptación:
+
+Validación de Solicitudes Pendientes:
+
+Dado que tengo una solicitud en estado pendiente en el sistema,
+Cuando intento enviar una nueva solicitud,
+Entonces debo recibir un mensaje de advertencia indicando que ya tengo una solicitud pendiente y no se debe procesar la nueva solicitud.
+Rechazo de Nuevas Solicitudes si Hay una Pendiente:
+
+Dado que tengo una solicitud en estado pendiente en el sistema,
+Cuando intento enviar una nueva solicitud,
+Entonces la nueva solicitud no debe procesarse y no debe haber cambios en el estado de la solicitud pendiente.
+Notificación al Usuario sobre la Existencia de una Solicitud Pendiente:
+
+Dado que he intentado enviar una nueva solicitud mientras tengo una solicitud pendiente,
+Entonces debo recibir un mensaje claro indicando que no se ha procesado la nueva solicitud debido a la existencia de una solicitud pendiente.
+Escenarios de Prueba:
+
+Prueba de Validación de Solicitudes Pendientes:
+
+Paso 1: Tener una solicitud en estado pendiente en el sistema.
+Paso 2: Intentar enviar una nueva solicitud.
+Resultado Esperado: Debe recibir un mensaje de advertencia indicando que ya existe una solicitud pendiente y la nueva solicitud no se debe procesar.
+Prueba de Rechazo de Nuevas Solicitudes si Hay una Pendiente:
+
+Paso 1: Tener una solicitud en estado pendiente en el sistema.
+Paso 2: Intentar enviar una nueva solicitud.
+Resultado Esperado: La nueva solicitud no debe procesarse y no debe haber cambios en la solicitud pendiente existente.
+Prueba de Notificación al Usuario sobre la Existencia de una Solicitud Pendiente:
+
+Paso 1: Intentar enviar una nueva solicitud mientras se tiene una solicitud pendiente.
+Resultado Esperado: Debe recibir un mensaje claro indicando que la nueva solicitud no se ha procesado debido a la existencia de una solicitud pendiente.

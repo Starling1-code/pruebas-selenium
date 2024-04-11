@@ -1,0 +1,39 @@
+Como estudiante de ITLA,
+Quiero poder iniciar sesión en la plataforma virtual fácilmente
+Para acceder a mis cursos y recursos educativos.
+
+Criterios de Aceptación:
+
+Iniciar Sesión Exitosamente:
+
+Dado que estoy en la página de inicio de sesión de la plataforma virtual de ITLA,
+Cuando ingreso mi nombre de usuario y mi contraseña válidos,
+Entonces debo poder iniciar sesión correctamente.
+Inicio de Sesión Fallido con Credenciales Incorrectas:
+
+Dado que estoy en la página de inicio de sesión de la plataforma virtual de ITLA,
+Cuando ingreso un nombre de usuario o una contraseña incorrectos,
+Entonces debo recibir un mensaje de error indicando que las credenciales son inválidas y no se debe iniciar sesión.
+Navegación a la Página de Inicio Después del Inicio de Sesión:
+
+Dado que he iniciado sesión correctamente en la plataforma virtual de ITLA,
+Cuando el proceso de inicio de sesión se completa exitosamente,
+Entonces debo ser redirigido a la página de inicio de la plataforma donde puedo acceder a mis cursos y recursos educativos.
+Escenarios de Prueba:
+
+Prueba de Inicio de Sesión Exitoso:
+
+Paso 1: Navegar a la página de inicio de sesión de la plataforma virtual de ITLA.
+Paso 2: Ingresar un nombre de usuario y una contraseña válidos.
+Paso 3: Presionar la tecla "Enter" o hacer clic en el botón de inicio de sesión.
+Resultado Esperado: Debe iniciar sesión correctamente y ser redirigido a la página de inicio de la plataforma.
+Prueba de Inicio de Sesión Fallido con Credenciales Incorrectas:
+
+Paso 1: Navegar a la página de inicio de sesión de la plataforma virtual de ITLA.
+Paso 2: Ingresar un nombre de usuario o una contraseña incorrectos.
+Paso 3: Presionar la tecla "Enter" o hacer clic en el botón de inicio de sesión.
+Resultado Esperado: Debe recibir un mensaje de error indicando que las credenciales son inválidas y no se debe iniciar sesión.
+Prueba de Navegación a la Página de Inicio Después del Inicio de Sesión:
+
+Paso 1: Completar exitosamente el proceso de inicio de sesión.
+Resultado Esperado: Debe ser redirigido automáticamente a la página de inicio de la plataforma donde se pueden acceder a los cursos y recursos educativos.
